@@ -10,6 +10,14 @@
     font-family: round;
     src: url("Fonts/Rounded_Elegance.ttf");
   }
+  @font-face {
+    font-family: Abel;
+    src: url("Fonts/Abel-Regular.ttf");
+  }
+  @font-face {
+    font-family: Oswald;
+    src: url("Fonts/Oswald-Regular.ttf");
+  }
 body{
    background-color: rgb(236,236,238);
     margin:0%;
@@ -140,4 +148,11 @@ a:hover{
     margin:0%;
     opacity:70%;
     border:2px outset rgb(250, 204, 139);
+}
+.link{
+   color:black;
+   font-style: normal; 
+}
+.link:hover{
+    border:0px;
 }
