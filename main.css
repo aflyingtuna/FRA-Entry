@@ -1,9 +1,23 @@
+@font-face {
+    font-family: moonbright;
+    src: url("Fonts/Moonbright Demo.ttf");
+}
+@font-face {
+    font-family: airplane script;
+    src: url("Fonts/Airplane Script.ttf");
+}
+@font-face {
+    font-family: round;
+    src: url("Fonts/Rounded_Elegance.ttf");
+  }
 body{
    background-color: rgb(236,236,238);
     margin:0%;
+    width:100%;
 }
 div{
     border: 0px solid red;
+    
 }
 .top.home{
     width:100%;
@@ -27,9 +41,103 @@ div{
     background-color: rgb(211,189,158);
     float:left;
 }
+.blog.title.text{
+    width:70%;
+    float:left;
+    padding-left:1%;
+    margin-left:2%;
+    //border: 1px solid red;
+    font-size: 150px;
+    font-family: 'Lemon/Milk';
+   padding-top:5%;
+   line-height:50%;
+   color:rgb(124,101,70);
+   letter-spacing: 15px;
+}
 .blog.subtitle.text{
-    border: 1px solid red;
-    width: 50%;
+   // border: 1px solid red;
+    width: 20%;
+    height:95%;
     float: right;
-    text-align:left;
+    text-align:right;
+    margin-right:3%;
+    padding-right: 2.5%;
+    border-right: 10px solid black;
+    font-size: 60px;
+    font-family: 'Oswald';
+    line-height:80%;
+}
+.blog.description.text{
+    padding:0%;
+    padding-left:2%;
+    width:95%;
+    height: 70%;
+    text-align: justify;
+    font-family:'Abel';
+    font-size:15px;
+    color:rgb(71, 11, 23);
+    float:center;
+    line-height: 140%;
+}
+div.asean.overview{
+    height:300px;
+    width:100%;
+    float:left;
+    background-color:rgb(143, 41, 61);
+ //   border: 1px solid red;
+}
+.menubox{
+ 
+    width:100%;
+    height:50px;
+}
+.linemenu1{
+    width:40%;
+    height:20px;
+    background-color: white;
+    float:left;
+    margin-top:2%;
+}
+.linemenu2{
+    width:40%;
+    height:20px;
+    background-color: white;
+    float:right;
+    margin-top:2%;
+}
+.menu{
+        width:19%;
+        height:20px;
+        color:white;
+        font-family: moonbright;
+        text-align:center;
+        font-size:80px;
+        float:left;
+   //     border: 1px solid red;
+ 
+}
+.circle{
+    border-radius: 50%;
+ //  border: 1px solid red;
+    width:150px;
+    height:150px;
+    float:left;
+    margin:10px;
+    margin-top:50px;
+    margin-left:50px;
+}
+.circle img{
+    width:150px;
+    height:150px;
+    padding:0%;
+    margin:0%;
+}
+a:hover{
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    padding:0%;
+    margin:0%;
+    opacity:70%;
+    border:2px outset rgb(250, 204, 139);
 }
