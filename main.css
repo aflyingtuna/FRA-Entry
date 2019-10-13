@@ -1,0 +1,35 @@
+body{
+   background-color: rgb(236,236,238);
+    margin:0%;
+}
+div{
+    border: 0px solid red;
+}
+.top.home{
+    width:100%;
+    height:100%;
+}
+.home.img img{
+    height:500px;
+    width: 30%;
+    float:left;
+}
+.blog.title{
+    width:70%;
+    height:250px;
+    background-color: rgb(255,255,255);
+    float:left;
+}
+.blog.description{
+    margin-top: 3px;
+    width:70%;
+    height:250px;
+    background-color: rgb(211,189,158);
+    float:left;
+}
+.blog.subtitle.text{
+    border: 1px solid red;
+    width: 50%;
+    float: right;
+    text-align:left;
+}
